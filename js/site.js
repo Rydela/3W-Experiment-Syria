@@ -20,7 +20,7 @@ var config = {
 function generate3WComponent(config,data,geom){
 
     $('#title').html(config.title);
-    
+    $('#description').html(config.description);
 
     var whoChart = dc.rowChart('#hdx-3W-who');
     var whatChart = dc.rowChart('#hdx-3W-what');
